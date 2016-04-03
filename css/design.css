@@ -1,0 +1,124 @@
+
+/*
+ * WELL, FUCK BOOTSTRAP
+ */
+
+.glyphicon.input-group-addon {
+	top: auto;
+}
+
+/*
+ * END OF ZERO FUCKS
+ */
+
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+menu {
+	color: #ffffff;
+	background: #55edb2;
+	margin: 0px;
+	padding: 12px;
+}
+
+menu li {
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	margin: 0px 8px 0px 0px;
+	background: black;
+}
+
+main {
+	
+}
+
+
+
+/*
+ * VIEWS
+ */
+
+#recipe-overview {
+	background: #2c3239;
+}
+
+#recipe-overview header {
+	display: block;
+	width: 100%;
+	height: 320px;
+	padding: 4px 12px;
+	background-image: url('./recipe-default.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#recipe-overview article {
+	margin: 0px;
+	padding: 3em 1em;
+	color: #b3bdc2;
+	text-align: center;
+}
+
+#recipe-overview article h2 {
+	margin: 0.5em;
+	padding: 0px;
+	color: #ffffff;
+	font-size: 32px;
+}
+
+#recipe-overview article p {
+	font-size: 24px;
+}
+
+#recipe-overview fieldset {
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	border: 0 none;
+	background: #ffffff;
+}
+
+#recipe-overview fieldset ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+#recipe-overview fieldset li {
+	list-style: none;
+	margin: 0px;
+	padding: 1em;
+	color: #bdc0c4;
+	border-bottom: 1px solid #b3bdc2;
+}
+
+#recipe-overview fieldset li figure {
+	display: inline-block;
+	width: 30%;
+	height: 100px;
+	background-position: center center;
+	background-size: cover;
+	vertical-align: top;
+}
+
+#recipe-overview fieldset li div {
+	display: inline-block;
+	width: 70%;
+	width: calc(100% - 30% - 4px - 2em);
+	vertical-align: top;
+	padding: 1em;
+}
+
+#recipe-overview fieldset li h3 {
+	color: #2c3239;
+	margin: 0px 0px 0.5em 0px;
+	padding: 0px;
+	font-size: 26px;
+}
+
+#recipe-overview fieldset li p {
+	font-size: 16px;
+}
+
